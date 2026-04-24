@@ -1,5 +1,6 @@
-import math
+length = float(input("Enter the length of the rectangle: "))
+width = float(input("Enter the width of the rectangle: "))
 
-radius = float(input("Enter the radius of the circle: "))
-area = math.pi * radius ** 2
-print(f"Area of the circle with radius {radius} is {area}")
+area = length * width
+
+print(f"Area of the rectangle is {area}")
